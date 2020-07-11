@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.frame{
+    background-color: black;
+    margin: auto;
+    width: 360px;
+    height: 640px;
+    position: relative;
+}
+.watch{
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    border: dotted 2px white;
+    position: absolute;
+    border-radius: 50%;
+    top: 25%;
+    left: 17%;
+    text-align: center;
+}
+.text{
+    width: 36px;
+    display: inline-block;
+    color: white;
+    margin-top: 39%;
+}
+#milisec{
+    vertical-align: super;
+}
+.control{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+@media only screen and(max-width : 570px){
+    .frame{
+        display: flex;
+    }
+}
+
